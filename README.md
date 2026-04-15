@@ -5,7 +5,7 @@ Fast, lightweight, and modular display library for programming and displaying LE
 ## Table of Contents
 - [Getting started](#Getting-started)
 - [Contributing](#Contributing)
-- [Library Documentation](Liyara/docs/DOCUMENTATION.md)
+- [Library Documentation](LiYara/docs/DOCUMENTATION.md)
 
 ## Getting-started
 ### Structure
