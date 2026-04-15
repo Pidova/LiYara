@@ -1,5 +1,5 @@
 # Documentation
-LiYara is a lightweight fast LED display library for displaying images through LED matrixes or LED strips.
+LiYara is a lightweight, fast LED display library for displaying images through LED matrix or LED strips.
 
 ## Table of Contents
 - [Overview](#Overview)
@@ -9,10 +9,10 @@ LiYara is a lightweight fast LED display library for displaying images through L
 
 ## Overview
 Arduino is the primary supported platform for LiYara. 
-While additional microcontrollers may be supported in the future adding your own Platform is very straight forward as only pin data and sdcard handling are currently the only platform specific code. Liyara works using bytecode interpreted by a virtual machine meaning you can pass code onto it during runtime and execute it. The current model is **DATA -> Interpreter -> Execution**.
+While additional microcontrollers may be supported in the future, adding your own Platform is very straightforward, as only pin data and SD card handling are currently the only platform-specific code. Liyara works using bytecode interpreted by a virtual machine, meaning you can pass code onto it during runtime and execute it. The current model is **DATA -> Interpreter -> Execution**.
 
 ## Configs
-There are several configuartions offered either through macros or settings
+There are several configurations offered either through macros or settings
 ### Settings
 - [Interpreter Configs](../shared/interpreter_config.hpp)
 - [Display Configs](../shared/display_config.hpp)
@@ -21,8 +21,12 @@ There are several configuartions offered either through macros or settings
 
 
 ## Support
-Current LED modules supported below:
-- ADAFRUIT-WS2812
+### MCUs
+Audrino is the official support of LiYara thought other MCUs will be added in the future.
+
+### Drivers
+Current LED modules supported below with drivers to install:
+- ADAFRUIT-WS2812 (ADAFRUIT NEOPIXEL)
 
 
 ## ISA
