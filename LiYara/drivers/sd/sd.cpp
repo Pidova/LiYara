@@ -29,10 +29,7 @@ namespace driver::sd {
             return this->f.size();
       }
       std::size_t handler::read_bytes(std::uint8_t *buffer, const std::size_t buffer_size) {
-            if (!this->f) {
-                  return 0u;
-            }
-            return this->f.readBytes((char *)buffer, buffer_size);
+            return !this->f ? 0u : this->f.readBytes((char *)buffer, buffer_size);
       }
       void handler::reset_buffer() {
             if (!this->f) {

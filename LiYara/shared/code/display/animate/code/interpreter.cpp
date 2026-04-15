@@ -17,6 +17,7 @@ namespace board::animate::interpreter {
             }
             state.fs.buffer_pc = 0u;
             state.fs.read_buffer(state, configs::interpreter::MAX_READ_BUFFER_LEN - offset, offset);
+            return;
       }
       void run(display::displayer &disp, vm_state &state) {
 

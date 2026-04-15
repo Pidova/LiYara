@@ -14,8 +14,8 @@ While additional microcontrollers may be supported in the future, adding your ow
 ## Configs
 There are several configurations offered either through macros or settings
 ### Settings
-- [Interpreter Configs](../shared/interpreter_config.hpp)
-- [Display Configs](../shared/display_config.hpp)
+- [Interpreter Configs](../shared/defs/interpreter_config.hpp)
+- [Display Configs](../shared/defs/display_config.hpp)
 ### Macros
 - **LIYARA_EXTRAS_SD_ENABLE** Enables SD card wrapper
 

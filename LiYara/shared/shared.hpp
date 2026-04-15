@@ -182,8 +182,9 @@ namespace board {
                               std::function<std::size_t(vm_state &)> get_file_size = nullptr;                                                                   /* Calls the function on file size request (Return file size) */
                               std::function<std::uint16_t(vm_state &, const std::uint16_t read_size, const std::uint16_t offset_buffer)> read_buffer = nullptr; /* Calls the function on buffer read (Returns read buffer size) */
 
+                              /* If there is any FS cbs? */
                               operator bool() const {
-                                    return get_file_size && read_buffer;
+                                    return this->get_file_size && this->read_buffer;
                               }
                         } fs;
                   };

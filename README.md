@@ -12,7 +12,7 @@ Fast, lightweight, and modular display library for programming and displaying LE
 The display is segmented out meaning you have to make an object of one segment and add it to the display. On the bytecode level you can interpret it as a regular display this structure allows you to easily program it and easily add new segments in the future. 
 
 ### Prerequisites
-List of libraries used for the LED drivers can be found [here](Liyara/docs/DOCUMENTATION.md).
+List of libraries used for the LED drivers can be found [here](LiYara/docs/DOCUMENTATION.md).
 C++23 standard is the recommended C++ standard.
 
 ### Code example
